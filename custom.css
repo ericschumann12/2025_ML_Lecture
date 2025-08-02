@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+:root {
+  --unired: #B31B1B; /* Define University Red */
+}
+
+/*-- scss:rules --*/
+h1, h2, h3 {
+  color: var(--unired); /* Headers in Unired */
+}
+
+.highlight {
+  color: var(--unired); /* Red text */
+  font-weight: bold; /* Make it stand out */
+  background-color: transparent; /* Remove the background */
+  padding: 2px;
+  border-radius: 3px;
+}
+
+/* Reduce font size for all slides */
+.reveal {
+    font-size: 200%; /* Adjust as needed */
+}
+
+/* Optional: Reduce header sizes */
+.reveal h1 {
+    font-size: 200%;
+}
+
+.reveal h2 {
+    font-size: 150%;
+    color: var(--unired);
+}
+
+.reveal h3 {
+    font-size: 200%;
+}
+.smaller-title {
+    font-size: 200%; /* Adjust size */
+}
+strong {
+    color: var(--unired) !important;
+    font-weight: bold !important;
+}
